@@ -5,6 +5,6 @@
     <string name="lastName">Last Name:</string>
     <string name="takePicture">Take a Picture</string>
     <string name="submit">Submit</string>
-    <string name="loginMessage"> is logged in!</string>
+    <string name="loginMessage">&#160;is logged in!</string>
     <string name="picture_of_user">Picture of user</string>
 </resources>
