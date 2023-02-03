@@ -22,6 +22,9 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
+            android:autofillHints=""
+            tools:ignore="LabelFor"
+            android:inputType="text"
             android:id="@+id/et_firstName"
             />
     </LinearLayout>
@@ -43,6 +46,9 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor"
+            android:inputType="text"
             android:id="@+id/et_middleName"
             />
     </LinearLayout>
@@ -64,6 +70,9 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor"
+            android:inputType="text"
             android:id="@+id/et_lastName"
             />
     </LinearLayout>
@@ -78,14 +87,14 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_below="@+id/ll_lastName"
             android:text="@string/takePicture"
             android:id="@+id/button_pic"
             />
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/picture_of_user"
+            android:layout_marginStart="8dp"
             android:id="@+id/iv_pic"
             />
     </LinearLayout>
@@ -93,7 +102,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
         android:layout_below="@+id/ll_pic"
         android:text="@string/submit"
         android:id="@+id/button_submit"

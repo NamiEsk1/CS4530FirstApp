@@ -1,9 +1,10 @@
-<resources>
-    <string name="app_name">App1</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="Typos">App1</string>
     <string name="firstName">First Name:</string>
     <string name="middleName">Middle Name:</string>
     <string name="lastName">Last Name:</string>
     <string name="takePicture">Take a Picture</string>
     <string name="submit">Submit</string>
     <string name="loginMessage"> is logged in!</string>
+    <string name="picture_of_user">Picture of user</string>
 </resources>
